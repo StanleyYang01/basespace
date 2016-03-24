@@ -6,9 +6,9 @@ file=${arg}
 module load rsem
 module load bowtie/1.0.0
 
-  dir1="/data/xwang/Basespace/myeloid_set1"
+# dir1="/data/xwang/Basespace/myeloid_set1"
 # dir1="/data/xwang/Basespace/myeloid_set2"
-# dir1="/data/xwang/Basespace/tcells_r123"
+  dir1="/data/xwang/Basespace/tcells_r123"
 
 dir2="/data/xwang/Basespace/rsem"
 ref="/data/xwang/RSEM/GRCm38"
