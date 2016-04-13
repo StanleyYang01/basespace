@@ -1,0 +1,16 @@
+[samopen] SAM header is present: 93343 sequences.
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:2:12303:10305:18730 1:N:0:CTGAAGCT+GCCTCTAG/1 (patid 1046818); skipping read
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:2:21106:25506:10153 1:N:0:CTGAAGCT+GCCTCTAT/1 (patid 1884568); skipping read
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:2:22202:7962:8110 1:N:0:CTGAAGCT+GCCTCTAT/1 (patid 2617462); skipping read
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:3:11402:8668:14670 1:N:0:CTGAAGCT+GCCTCTAG/1 (patid 3619617); skipping read
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:3:12605:13001:9582 1:N:0:CTGAAGCT+GCCTCTAG/1 (patid 4688655); skipping read
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:3:21403:10146:4923 1:N:0:CTGAAGCT+GCCTCTAT/1 (patid 5468310); skipping read
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:3:23406:5769:11894 1:N:0:CTGAAGCT+GCCTCTAT/1 (patid 6695753); skipping read
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:3:23604:20277:19423 1:N:0:CTGAAGCT+GCCTCTAT/1 (patid 7074427); skipping read
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:1:13104:12872:11218 1:N:0:CTGAAGCT+GCCTCTAT/1 (patid 8485826); skipping read
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:4:13410:23779:7644 1:N:0:CTGAAGCT+GCCTCTAT/1 (patid 12279461); skipping read
+# reads processed: 14503489
+# reads with at least one reported alignment: 1817352 (12.53%)
+# reads that failed to align: 12686137 (87.47%)
+Reported 6410286 paired-end alignments to 1 output stream(s)
+[bam_sort_core] merging from 16 files...

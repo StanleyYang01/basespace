@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # dir1="/data/xwang/Basespace/McCullough_Ritzel_myeloid_set1_grh/"
-# dir1="/data/xwang/Basespace/McCullough_Ritzel_myeloid_set2_grh/"
-  dir1="/data/xwang/Basespace/McCullough_Ritzel_Tcells_Runs1-3_grh/"
+  dir1="/data/xwang/Basespace/McCullough_Ritzel_myeloid_set2_grh/"
+# dir1="/data/xwang/Basespace/McCullough_Ritzel_Tcells_Runs1-3_grh/"
 
 dir2="/home/xwang/Dropbox/GitHub/basespace/shell"
 

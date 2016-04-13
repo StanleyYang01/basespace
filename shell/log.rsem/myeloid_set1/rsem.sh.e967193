@@ -1,0 +1,7 @@
+[samopen] SAM header is present: 93343 sequences.
+Warning: Exhausted best-first chunk memory for read NS500402:48:HLK5FBGXX:1:12304:15527:15948 1:N:0:CTGAAGCT+AGGCTATA/1 (patid 7455517); skipping read
+# reads processed: 9104528
+# reads with at least one reported alignment: 2639898 (29.00%)
+# reads that failed to align: 6464630 (71.00%)
+Reported 8004538 paired-end alignments to 1 output stream(s)
+[bam_sort_core] merging from 12 files...
