@@ -6,12 +6,16 @@ pkg <- c("tidyr","dplyr", "ggvis", "Biobase", "biomaRt")
 sapply(pkg, require, character.only = T)
 
 qc <- read.delim("./shell/log.rsem/rsem.out", header = F) 
+qc <- read.delim("./shell/log.rsem2/rsem.out", header = F) 
 
 (qc$age <- gsub("(Aged|Young).*", "\\1", qc$V1)); table(qc$age)
 (qc$sex <- gsub(".*(Male|Female).*", "\\1", qc$V1)); table(qc$sex)
 (qc$cel <- gsub(".*(Microglia|Macrophage).*", "\\1", qc$V1)); table(qc$cel)
+(qc$tis <- gsub(".*(Brain|Spleen).*", "\\1", qc$V1)); table(qc$tis)
+(qc$sti <- gsub(".*(PlusStim|NoStim).*", "\\1", qc$V1)); table(qc$sti)
 
 (qc$group = paste0(qc$age, qc$sex, qc$cel)); table(qc$group)
+(qc$group = paste0(qc$age, qc$sex, qc$tis, qc$sti)); table(qc$group)
 
 (qc$count = as.numeric(gsub(".*alignment: (.*) \\(.*", "\\1", qc$V2)))
 (qc$rate = as.numeric(gsub(".*\\((.*)%\\)", "\\1", qc$V2)))

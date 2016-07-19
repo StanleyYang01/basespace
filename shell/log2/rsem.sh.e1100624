@@ -1,0 +1,6 @@
+[samopen] SAM header is present: 93343 sequences.
+# reads processed: 24270175
+# reads with at least one reported alignment: 13018835 (53.64%)
+# reads that failed to align: 11251340 (46.36%)
+Reported 75266411 paired-end alignments to 1 output stream(s)
+[bam_sort_core] merging from 75 files...

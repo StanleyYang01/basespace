@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -l mem=128gb,nodes=1:ppn=10,walltime=10:00:00
+#PBS -l nodes=1:ppn=10,walltime=10:00:00
 
 module load bowtie
 module load samtools
@@ -12,9 +12,9 @@ module load rsem
 # cd /data/xwang/REF
 # bowtie-build Mm10Genome.fa Mm10Genome
 
-cd /data/xwang/Basespace/test
+# cd /data/xwang/Basespace/test
 
-file="AgedMale-Microglia-4_S14_LaneALL"
+# file="AgedMale-Microglia-4_S14_LaneALL"
 
 # fastx_quality_stats -i ${file}_R1.fastq -o ${file}_R1.txt
 # fastq_quality_boxplot_graph.sh -i ${file}_R1.txt -o $HOME/Dropbox/GitHub/basespace/qc/${file}_R1.png
@@ -31,7 +31,7 @@ file="AgedMale-Microglia-4_S14_LaneALL"
 
 # 
 
-ref="/data/xwang/RSEM/GRCm38"
+# ref="/data/xwang/RSEM/GRCm38"
 # ref="/data/xwang/REF/Mm10Genome"
 
 # java -jar ~/Trimmomatic-0.32/trimmomatic-0.32.jar SE \
@@ -57,12 +57,17 @@ ref="/data/xwang/RSEM/GRCm38"
 #        "$file"_crop_R1.fastq \
 #        "$file".sam
  
+cd /data/xwang/Basespace/pico
+
+file="AgedFemale-Brain-NoStim-13_S10_LaneALL"
+ref="/data/xwang/RSEM/GRCm38"
+
 rsem-calculate-expression -p 10 \
   --bowtie-phred33-quals \
   --forward-prob 1 \
   --paired-end \
-  "$file"_crop_R1.fastq \
-  "$file"_crop_R2.fastq \
+  "$file"_R1.fastq \
+  "$file"_R2.fastq \
   "$ref" \
   "$file"
 

@@ -1,0 +1,3 @@
+TrimmomaticPE: Started with arguments: -threads 5 -phred33 /data/xwang/exome/merged/AgedMale-Brain-NoStim-12_S11_R1.fastq.gz /data/xwang/exome/merged/AgedMale-Brain-NoStim-12_S11_R2.fastq.gz /data/xwang/exome/trimmed/AgedMale-Brain-NoStim-12_S11_R1.fastq /data/xwang/exome/trimmed/AgedMale-Brain-NoStim-12_S11_unpaired_R1.fastq /data/xwang/exome/trimmed/AgedMale-Brain-NoStim-12_S11_R2.fastq /data/xwang/exome/trimmed/AgedMale-Brain-NoStim-12_S11_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:60 HEADCROP:3
+Input Read Pairs: 41673945 Both Surviving: 34369961 (82.47%) Forward Only Surviving: 4003339 (9.61%) Reverse Only Surviving: 1002465 (2.41%) Dropped: 2298180 (5.51%)
+TrimmomaticPE: Completed successfully

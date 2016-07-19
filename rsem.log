@@ -1,0 +1,74 @@
+AgedMale-Brain-NoStim-7_S6
+/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-7_S6_R1.fastq -2 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-7_S6_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-7_S6.temp/AgedMale-Brain-NoStim-7_S6.bam -
+
+rsem-parse-alignments /home/xulong/mouse/rsem/grcm38 /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-7_S6.temp/AgedMale-Brain-NoStim-7_S6 /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-7_S6.stat/AgedMale-Brain-NoStim-7_S6 b /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-7_S6.temp/AgedMale-Brain-NoStim-7_S6.bam -t 3 -tag XM
+Parsed 1000000 entries
+Parsed 2000000 entries
+Parsed 3000000 entries
+Parsed 4000000 entries
+Parsed 5000000 entries
+Parsed 6000000 entries
+Parsed 7000000 entries
+Parsed 8000000 entries
+Parsed 9000000 entries
+Parsed 10000000 entries
+Parsed 11000000 entries
+Parsed 12000000 entries
+Parsed 13000000 entries
+Parsed 14000000 entries
+Parsed 15000000 entries
+Parsed 16000000 entries
+Parsed 17000000 entries
+Parsed 18000000 entries
+Parsed 19000000 entries
+Parsed 20000000 entries
+Parsed 21000000 entries
+Parsed 22000000 entries
+Parsed 23000000 entries
+Parsed 24000000 entries
+Parsed 25000000 entries
+Parsed 26000000 entries
+Parsed 27000000 entries
+Parsed 28000000 entries
+Parsed 29000000 entries
+Parsed 30000000 entries
+Parsed 31000000 entries
+Parsed 32000000 entries
+Parsed 33000000 entries
+Parsed 34000000 entries
+"rsem-parse-alignments /home/xulong/mouse/rsem/grcm38 /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-7_S6.temp/AgedMale-Brain-NoStim-7_S6 /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-7_S6.stat/AgedMale-Brain-NoStim-7_S6 b /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-7_S6.temp/AgedMale-Brain-NoStim-7_S6.bam -t 3 -tag XM" failed! Plase check if you provide correct parameters/options for the pipeline!
+AgedMale-Brain-NoStim-12_S11
+/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-12_S11_R1.fastq -2 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-12_S11_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-12_S11.temp/AgedMale-Brain-NoStim-12_S11.bam -
+
+rsem-parse-alignments /home/xulong/mouse/rsem/grcm38 /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-12_S11.temp/AgedMale-Brain-NoStim-12_S11 /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-12_S11.stat/AgedMale-Brain-NoStim-12_S11 b /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-12_S11.temp/AgedMale-Brain-NoStim-12_S11.bam -t 3 -tag XM
+Parsed 1000000 entries
+Parsed 2000000 entries
+Parsed 3000000 entries
+Parsed 4000000 entries
+Parsed 5000000 entries
+Parsed 6000000 entries
+Parsed 7000000 entries
+Parsed 8000000 entries
+"rsem-parse-alignments /home/xulong/mouse/rsem/grcm38 /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-12_S11.temp/AgedMale-Brain-NoStim-12_S11 /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-12_S11.stat/AgedMale-Brain-NoStim-12_S11 b /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-12_S11.temp/AgedMale-Brain-NoStim-12_S11.bam -t 3 -tag XM" failed! Plase check if you provide correct parameters/options for the pipeline!
+YoungMale-Brain-NoStim-4_S3
+/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-4_S3_R1.fastq -2 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-4_S3_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/YoungMale-Brain-NoStim-4_S3.temp/YoungMale-Brain-NoStim-4_S3.bam -
+"/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-4_S3_R1.fastq -2 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-4_S3_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/YoungMale-Brain-NoStim-4_S3.temp/YoungMale-Brain-NoStim-4_S3.bam -" failed! Plase check if you provide correct parameters/options for the pipeline!
+YoungMale-Brain-NoStim-6_S5
+/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-6_S5_R1.fastq -2 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-6_S5_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/YoungMale-Brain-NoStim-6_S5.temp/YoungMale-Brain-NoStim-6_S5.bam -
+"/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-6_S5_R1.fastq -2 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-6_S5_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/YoungMale-Brain-NoStim-6_S5.temp/YoungMale-Brain-NoStim-6_S5.bam -" failed! Plase check if you provide correct parameters/options for the pipeline!
+YoungMale-Brain-NoStim-5_S4
+/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-5_S4_R1.fastq -2 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-5_S4_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/YoungMale-Brain-NoStim-5_S4.temp/YoungMale-Brain-NoStim-5_S4.bam -
+"/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-5_S4_R1.fastq -2 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-5_S4_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/YoungMale-Brain-NoStim-5_S4.temp/YoungMale-Brain-NoStim-5_S4.bam -" failed! Plase check if you provide correct parameters/options for the pipeline!
+AgedMale-Brain-NoStim-10_S9
+/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-10_S9_R1.fastq -2 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-10_S9_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-10_S9.temp/AgedMale-Brain-NoStim-10_S9.bam -
+"/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-10_S9_R1.fastq -2 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-10_S9_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-10_S9.temp/AgedMale-Brain-NoStim-10_S9.bam -" failed! Plase check if you provide correct parameters/options for the pipeline!
+AgedMale-Brain-NoStim-8_S7
+/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-8_S7_R1.fastq -2 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-8_S7_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-8_S7.temp/AgedMale-Brain-NoStim-8_S7.bam -
+"/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-8_S7_R1.fastq -2 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-8_S7_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-8_S7.temp/AgedMale-Brain-NoStim-8_S7.bam -" failed! Plase check if you provide correct parameters/options for the pipeline!
+AgedMale-Brain-NoStim-9_S8
+/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-9_S8_R1.fastq -2 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-9_S8_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-9_S8.temp/AgedMale-Brain-NoStim-9_S8.bam -
+"/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-9_S8_R1.fastq -2 /home/xulong/local/basespace/trimmed/AgedMale-Brain-NoStim-9_S8_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/AgedMale-Brain-NoStim-9_S8.temp/AgedMale-Brain-NoStim-9_S8.bam -" failed! Plase check if you provide correct parameters/options for the pipeline!
+YoungMale-Brain-NoStim-3_S2
+/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-3_S2_R1.fastq -2 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-3_S2_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/YoungMale-Brain-NoStim-3_S2.temp/YoungMale-Brain-NoStim-3_S2.bam -
+"/home/xulong/bowtie2-2.2.6/bowtie2 -q --phred33 --sensitive --dpad 0 --gbar 99999999 --mp 1,1 --np 1 --score-min L,0,-0.1 -I 1 -X 1000 --no-mixed --no-discordant --norc -p 20 -k 200 -x /home/xulong/mouse/rsem/grcm38 -1 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-3_S2_R1.fastq -2 /home/xulong/local/basespace/trimmed/YoungMale-Brain-NoStim-3_S2_R2.fastq | samtools view -S -b -o /home/xulong/local/basespace/rsem/YoungMale-Brain-NoStim-3_S2.temp/YoungMale-Brain-NoStim-3_S2.bam -" failed! Plase check if you provide correct parameters/options for the pipeline!
+YoungMale-Brain-NoStim-2_S1
