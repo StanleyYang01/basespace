@@ -1,25 +1,21 @@
-#!/bin/sh
+#!/bin/bash
+#PBS -l mem=64gb,nodes=1:ppn=20,walltime=10:00:00
 
-# dir1=/home/xulong/local/basespace/test
-dir1=/home/xulong/local/basespace/trimmed
+file=${arg}
 
-dir2=/home/xulong/local/basespace/rsem
+module load rsem
+module load bowtie/1.0.0
 
-files=`find $dir1 -name '*unpaired_R1.fastq'`
+dir1="/data/xwang/MATS/Trimmed"
+dir2="/data/xwang/MATS/RSEM"
+ref="/data/xwang/RSEM/GRCm38"
 
-myrsem=/home/xulong/RSEM-1.2.25/rsem-calculate-expression
-mybowtie2=/home/xulong/bowtie2-2.2.6
-myref=/home/xulong/mouse/rsem/grcm38
-
-for name1 in $files; do
-  name2=`basename $name1`
-  name3=${name2/_unpaired_R1.fastq/}
-  echo $name3
-
-  $myrsem -p 20 --phred33-quals \
-          --bowtie2 --bowtie2-path $mybowtie2 \
-   	  --forward-prob 1 --paired-end \
-          $dir1/${name3}_R1.fastq $dir1/${name3}_R2.fastq \
-   	  $myref $dir2/$name3
-done
+rsem-calculate-expression -p 20 \
+			  --bowtie-phred33-quals \
+   			  --forward-prob 0.5 \
+   			  --paired-end \
+                          "$dir1"/"$file"_R1.fastq \
+                          "$dir1"/"$file"_R2.fastq \
+   			  "$ref" \
+   			  "$dir2"/"$file"
 

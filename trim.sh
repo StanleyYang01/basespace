@@ -1,7 +1,7 @@
 #!/bin/sh
 
-dir1="/data/xwang/exome/merged/"
-dir2="/data/xwang/exome/trimmed/"
+dir1="/data/xwang/MATS/Merged/"
+dir2="/data/xwang/MATS/Trimmed/"
 
 files=`find $dir1 -name '*_R1.fastq.gz'`
 
@@ -19,7 +19,7 @@ for name1 in $files; do
             "$dir2"/"$name3"_unpaired_R1.fastq \
             "$dir2"/"$name3"_R2.fastq \
             "$dir2"/"$name3"_unpaired_R2.fastq \
-            LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
+            LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
 done
 
 #           LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:60 HEADCROP:5

@@ -1,55 +1,60 @@
-AgedMale-Brain-NoStim-7_S6
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-7_S6_R1.fastq.gz /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-7_S6_R2.fastq.gz /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-7_S6_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-7_S6_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-7_S6_R2.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-7_S6_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 48539403 Both Surviving: 40964709 (84.39%) Forward Only Surviving: 5661626 (11.66%) Reverse Only Surviving: 854958 (1.76%) Dropped: 1058110 (2.18%)
+15-MBM1_S5
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//15-MBM1_S5_R1.fastq.gz /data/xwang/MATS/Merged//15-MBM1_S5_R2.fastq.gz /data/xwang/MATS/Trimmed//15-MBM1_S5_R1.fastq /data/xwang/MATS/Trimmed//15-MBM1_S5_unpaired_R1.fastq /data/xwang/MATS/Trimmed//15-MBM1_S5_R2.fastq /data/xwang/MATS/Trimmed//15-MBM1_S5_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 22284251 Both Surviving: 21549580 (96.70%) Forward Only Surviving: 481855 (2.16%) Reverse Only Surviving: 128642 (0.58%) Dropped: 124174 (0.56%)
 TrimmomaticPE: Completed successfully
-AgedMale-Brain-NoStim-12_S11
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-12_S11_R1.fastq.gz /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-12_S11_R2.fastq.gz /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-12_S11_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-12_S11_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-12_S11_R2.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-12_S11_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 41673945 Both Surviving: 35626880 (85.49%) Forward Only Surviving: 3718522 (8.92%) Reverse Only Surviving: 846398 (2.03%) Dropped: 1482145 (3.56%)
+11-MBM1_S1
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//11-MBM1_S1_R1.fastq.gz /data/xwang/MATS/Merged//11-MBM1_S1_R2.fastq.gz /data/xwang/MATS/Trimmed//11-MBM1_S1_R1.fastq /data/xwang/MATS/Trimmed//11-MBM1_S1_unpaired_R1.fastq /data/xwang/MATS/Trimmed//11-MBM1_S1_R2.fastq /data/xwang/MATS/Trimmed//11-MBM1_S1_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 35961048 Both Surviving: 32479700 (90.32%) Forward Only Surviving: 1144837 (3.18%) Reverse Only Surviving: 275818 (0.77%) Dropped: 2060693 (5.73%)
 TrimmomaticPE: Completed successfully
-YoungMale-Brain-NoStim-4_S3
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//YoungMale-Brain-NoStim-4_S3_R1.fastq.gz /home/xulong/local/basespace/merged//YoungMale-Brain-NoStim-4_S3_R2.fastq.gz /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-4_S3_R1.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-4_S3_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-4_S3_R2.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-4_S3_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 31371528 Both Surviving: 25879349 (82.49%) Forward Only Surviving: 2854340 (9.10%) Reverse Only Surviving: 653092 (2.08%) Dropped: 1984747 (6.33%)
+5-MBM1_S1
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//5-MBM1_S1_R1.fastq.gz /data/xwang/MATS/Merged//5-MBM1_S1_R2.fastq.gz /data/xwang/MATS/Trimmed//5-MBM1_S1_R1.fastq /data/xwang/MATS/Trimmed//5-MBM1_S1_unpaired_R1.fastq /data/xwang/MATS/Trimmed//5-MBM1_S1_R2.fastq /data/xwang/MATS/Trimmed//5-MBM1_S1_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 28590249 Both Surviving: 25871724 (90.49%) Forward Only Surviving: 2376117 (8.31%) Reverse Only Surviving: 195641 (0.68%) Dropped: 146767 (0.51%)
 TrimmomaticPE: Completed successfully
-YoungMale-Brain-NoStim-6_S5
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//YoungMale-Brain-NoStim-6_S5_R1.fastq.gz /home/xulong/local/basespace/merged//YoungMale-Brain-NoStim-6_S5_R2.fastq.gz /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-6_S5_R1.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-6_S5_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-6_S5_R2.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-6_S5_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 34131216 Both Surviving: 28712927 (84.13%) Forward Only Surviving: 2994963 (8.77%) Reverse Only Surviving: 660533 (1.94%) Dropped: 1762793 (5.16%)
+3-MBM1_S8
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//3-MBM1_S8_R1.fastq.gz /data/xwang/MATS/Merged//3-MBM1_S8_R2.fastq.gz /data/xwang/MATS/Trimmed//3-MBM1_S8_R1.fastq /data/xwang/MATS/Trimmed//3-MBM1_S8_unpaired_R1.fastq /data/xwang/MATS/Trimmed//3-MBM1_S8_R2.fastq /data/xwang/MATS/Trimmed//3-MBM1_S8_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 35822527 Both Surviving: 33406160 (93.25%) Forward Only Surviving: 2056294 (5.74%) Reverse Only Surviving: 211775 (0.59%) Dropped: 148298 (0.41%)
 TrimmomaticPE: Completed successfully
-YoungMale-Brain-NoStim-5_S4
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//YoungMale-Brain-NoStim-5_S4_R1.fastq.gz /home/xulong/local/basespace/merged//YoungMale-Brain-NoStim-5_S4_R2.fastq.gz /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-5_S4_R1.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-5_S4_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-5_S4_R2.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-5_S4_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 30243468 Both Surviving: 25091997 (82.97%) Forward Only Surviving: 3371310 (11.15%) Reverse Only Surviving: 566927 (1.87%) Dropped: 1213234 (4.01%)
+10-MBM1_S4
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//10-MBM1_S4_R1.fastq.gz /data/xwang/MATS/Merged//10-MBM1_S4_R2.fastq.gz /data/xwang/MATS/Trimmed//10-MBM1_S4_R1.fastq /data/xwang/MATS/Trimmed//10-MBM1_S4_unpaired_R1.fastq /data/xwang/MATS/Trimmed//10-MBM1_S4_R2.fastq /data/xwang/MATS/Trimmed//10-MBM1_S4_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 33004024 Both Surviving: 30979298 (93.87%) Forward Only Surviving: 810274 (2.46%) Reverse Only Surviving: 202067 (0.61%) Dropped: 1012385 (3.07%)
 TrimmomaticPE: Completed successfully
-AgedMale-Brain-NoStim-10_S9
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-10_S9_R1.fastq.gz /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-10_S9_R2.fastq.gz /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-10_S9_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-10_S9_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-10_S9_R2.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-10_S9_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 39710938 Both Surviving: 34422379 (86.68%) Forward Only Surviving: 3455961 (8.70%) Reverse Only Surviving: 764677 (1.93%) Dropped: 1067921 (2.69%)
+6-MBM1_S7
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//6-MBM1_S7_R1.fastq.gz /data/xwang/MATS/Merged//6-MBM1_S7_R2.fastq.gz /data/xwang/MATS/Trimmed//6-MBM1_S7_R1.fastq /data/xwang/MATS/Trimmed//6-MBM1_S7_unpaired_R1.fastq /data/xwang/MATS/Trimmed//6-MBM1_S7_R2.fastq /data/xwang/MATS/Trimmed//6-MBM1_S7_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 32183168 Both Surviving: 31234437 (97.05%) Forward Only Surviving: 652614 (2.03%) Reverse Only Surviving: 169484 (0.53%) Dropped: 126633 (0.39%)
 TrimmomaticPE: Completed successfully
-AgedMale-Brain-NoStim-8_S7
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-8_S7_R1.fastq.gz /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-8_S7_R2.fastq.gz /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-8_S7_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-8_S7_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-8_S7_R2.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-8_S7_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 29802036 Both Surviving: 25913163 (86.95%) Forward Only Surviving: 2538193 (8.52%) Reverse Only Surviving: 544384 (1.83%) Dropped: 806296 (2.71%)
+4-MBM1_S2
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//4-MBM1_S2_R1.fastq.gz /data/xwang/MATS/Merged//4-MBM1_S2_R2.fastq.gz /data/xwang/MATS/Trimmed//4-MBM1_S2_R1.fastq /data/xwang/MATS/Trimmed//4-MBM1_S2_unpaired_R1.fastq /data/xwang/MATS/Trimmed//4-MBM1_S2_R2.fastq /data/xwang/MATS/Trimmed//4-MBM1_S2_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 36058702 Both Surviving: 35102765 (97.35%) Forward Only Surviving: 643465 (1.78%) Reverse Only Surviving: 175129 (0.49%) Dropped: 137343 (0.38%)
 TrimmomaticPE: Completed successfully
-AgedMale-Brain-NoStim-9_S8
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-9_S8_R1.fastq.gz /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-9_S8_R2.fastq.gz /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-9_S8_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-9_S8_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-9_S8_R2.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-9_S8_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 36845760 Both Surviving: 30936071 (83.96%) Forward Only Surviving: 4153709 (11.27%) Reverse Only Surviving: 652240 (1.77%) Dropped: 1103740 (3.00%)
+1-MBM1_S4
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//1-MBM1_S4_R1.fastq.gz /data/xwang/MATS/Merged//1-MBM1_S4_R2.fastq.gz /data/xwang/MATS/Trimmed//1-MBM1_S4_R1.fastq /data/xwang/MATS/Trimmed//1-MBM1_S4_unpaired_R1.fastq /data/xwang/MATS/Trimmed//1-MBM1_S4_R2.fastq /data/xwang/MATS/Trimmed//1-MBM1_S4_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 31556333 Both Surviving: 30653092 (97.14%) Forward Only Surviving: 636018 (2.02%) Reverse Only Surviving: 153750 (0.49%) Dropped: 113473 (0.36%)
 TrimmomaticPE: Completed successfully
-YoungMale-Brain-NoStim-3_S2
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//YoungMale-Brain-NoStim-3_S2_R1.fastq.gz /home/xulong/local/basespace/merged//YoungMale-Brain-NoStim-3_S2_R2.fastq.gz /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-3_S2_R1.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-3_S2_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-3_S2_R2.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-3_S2_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 36926781 Both Surviving: 31954700 (86.54%) Forward Only Surviving: 3283489 (8.89%) Reverse Only Surviving: 668947 (1.81%) Dropped: 1019645 (2.76%)
+7-MBM1_S6
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//7-MBM1_S6_R1.fastq.gz /data/xwang/MATS/Merged//7-MBM1_S6_R2.fastq.gz /data/xwang/MATS/Trimmed//7-MBM1_S6_R1.fastq /data/xwang/MATS/Trimmed//7-MBM1_S6_unpaired_R1.fastq /data/xwang/MATS/Trimmed//7-MBM1_S6_R2.fastq /data/xwang/MATS/Trimmed//7-MBM1_S6_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 61526280 Both Surviving: 55590728 (90.35%) Forward Only Surviving: 5229559 (8.50%) Reverse Only Surviving: 400921 (0.65%) Dropped: 305072 (0.50%)
 TrimmomaticPE: Completed successfully
-YoungMale-Brain-NoStim-2_S1
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//YoungMale-Brain-NoStim-2_S1_R1.fastq.gz /home/xulong/local/basespace/merged//YoungMale-Brain-NoStim-2_S1_R2.fastq.gz /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-2_S1_R1.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-2_S1_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-2_S1_R2.fastq /home/xulong/local/basespace/trimmed//YoungMale-Brain-NoStim-2_S1_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 37875145 Both Surviving: 31385278 (82.87%) Forward Only Surviving: 3609475 (9.53%) Reverse Only Surviving: 719444 (1.90%) Dropped: 2160948 (5.71%)
+14-MBM1_S6
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//14-MBM1_S6_R1.fastq.gz /data/xwang/MATS/Merged//14-MBM1_S6_R2.fastq.gz /data/xwang/MATS/Trimmed//14-MBM1_S6_R1.fastq /data/xwang/MATS/Trimmed//14-MBM1_S6_unpaired_R1.fastq /data/xwang/MATS/Trimmed//14-MBM1_S6_R2.fastq /data/xwang/MATS/Trimmed//14-MBM1_S6_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 20529054 Both Surviving: 19835302 (96.62%) Forward Only Surviving: 455887 (2.22%) Reverse Only Surviving: 107796 (0.53%) Dropped: 130069 (0.63%)
 TrimmomaticPE: Completed successfully
-AgedMale-Brain-NoStim-11_S10
-TrimmomaticPE: Started with arguments:
- -threads 10 -phred33 /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-11_S10_R1.fastq.gz /home/xulong/local/basespace/merged//AgedMale-Brain-NoStim-11_S10_R2.fastq.gz /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-11_S10_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-11_S10_unpaired_R1.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-11_S10_R2.fastq /home/xulong/local/basespace/trimmed//AgedMale-Brain-NoStim-11_S10_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 HEADCROP:3
-Input Read Pairs: 40294946 Both Surviving: 34186555 (84.84%) Forward Only Surviving: 4282564 (10.63%) Reverse Only Surviving: 750049 (1.86%) Dropped: 1075778 (2.67%)
+12-MBM1_S3
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//12-MBM1_S3_R1.fastq.gz /data/xwang/MATS/Merged//12-MBM1_S3_R2.fastq.gz /data/xwang/MATS/Trimmed//12-MBM1_S3_R1.fastq /data/xwang/MATS/Trimmed//12-MBM1_S3_unpaired_R1.fastq /data/xwang/MATS/Trimmed//12-MBM1_S3_R2.fastq /data/xwang/MATS/Trimmed//12-MBM1_S3_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 28948144 Both Surviving: 27267084 (94.19%) Forward Only Surviving: 974236 (3.37%) Reverse Only Surviving: 182709 (0.63%) Dropped: 524115 (1.81%)
+TrimmomaticPE: Completed successfully
+8-MBM1_S3
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//8-MBM1_S3_R1.fastq.gz /data/xwang/MATS/Merged//8-MBM1_S3_R2.fastq.gz /data/xwang/MATS/Trimmed//8-MBM1_S3_R1.fastq /data/xwang/MATS/Trimmed//8-MBM1_S3_unpaired_R1.fastq /data/xwang/MATS/Trimmed//8-MBM1_S3_R2.fastq /data/xwang/MATS/Trimmed//8-MBM1_S3_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 48640940 Both Surviving: 44678473 (91.85%) Forward Only Surviving: 2433920 (5.00%) Reverse Only Surviving: 308033 (0.63%) Dropped: 1220514 (2.51%)
+TrimmomaticPE: Completed successfully
+9-MBM1_S2
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//9-MBM1_S2_R1.fastq.gz /data/xwang/MATS/Merged//9-MBM1_S2_R2.fastq.gz /data/xwang/MATS/Trimmed//9-MBM1_S2_R1.fastq /data/xwang/MATS/Trimmed//9-MBM1_S2_unpaired_R1.fastq /data/xwang/MATS/Trimmed//9-MBM1_S2_R2.fastq /data/xwang/MATS/Trimmed//9-MBM1_S2_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 50947540 Both Surviving: 48520333 (95.24%) Forward Only Surviving: 1405342 (2.76%) Reverse Only Surviving: 300696 (0.59%) Dropped: 721169 (1.42%)
+TrimmomaticPE: Completed successfully
+2-MBM1_S5
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//2-MBM1_S5_R1.fastq.gz /data/xwang/MATS/Merged//2-MBM1_S5_R2.fastq.gz /data/xwang/MATS/Trimmed//2-MBM1_S5_R1.fastq /data/xwang/MATS/Trimmed//2-MBM1_S5_unpaired_R1.fastq /data/xwang/MATS/Trimmed//2-MBM1_S5_R2.fastq /data/xwang/MATS/Trimmed//2-MBM1_S5_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 27650048 Both Surviving: 26902978 (97.30%) Forward Only Surviving: 511702 (1.85%) Reverse Only Surviving: 134035 (0.48%) Dropped: 101333 (0.37%)
+TrimmomaticPE: Completed successfully
+13-MBM1_S7
+TrimmomaticPE: Started with arguments: -threads 10 -phred33 /data/xwang/MATS/Merged//13-MBM1_S7_R1.fastq.gz /data/xwang/MATS/Merged//13-MBM1_S7_R2.fastq.gz /data/xwang/MATS/Trimmed//13-MBM1_S7_R1.fastq /data/xwang/MATS/Trimmed//13-MBM1_S7_unpaired_R1.fastq /data/xwang/MATS/Trimmed//13-MBM1_S7_R2.fastq /data/xwang/MATS/Trimmed//13-MBM1_S7_unpaired_R2.fastq LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50
+Input Read Pairs: 143548258 Both Surviving: 138599728 (96.55%) Forward Only Surviving: 3330622 (2.32%) Reverse Only Surviving: 817425 (0.57%) Dropped: 800483 (0.56%)
 TrimmomaticPE: Completed successfully
